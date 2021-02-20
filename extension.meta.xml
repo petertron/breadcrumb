@@ -3,7 +3,7 @@
 	<name>Breadcrumb</name>
 	<description>A datasource that provides XML representing the parent hierarchy. Useful for building breadcrumb navigation.</description>
 	<repo type="github">https://github.com/symphonists/breadcrumb</repo>
-	<url type="discuss">http://symphony-cms.com/discuss/thread/32781/</url>
+	<url type="discuss">http://www.getsymphony.com/discuss/thread/32781/</url>
 	<types>
 		<type>Data Sources</type>
 	</types>
@@ -11,11 +11,17 @@
 		<author>
 			<name github="symphonists" symphony="community">Symphony Community</name>
 		</author>
+		<author>
+			<name github="petertron">Peter Skirenko</name>
+		</author>
 	</authors>
 	<dependencies>
 		<!-- None -->
 	</dependencies>
 	<releases>  
+		<release version="1.2.1" date="2021-02-20" min="2.3.x">
+			- PHP 7 compatibility
+		</release>
 		<release version="1.2" date="2012-05-02" min="2.3.x">
 			- Compatible with Symphony 2.3
 			- Using new PageManager
