@@ -26,8 +26,8 @@
 		public function about(){
 
 			return array('name' => 'Breadcrumb', 
-			             'version' => 'Breadcrumb 1.2',
-			             'release-date' => '2012-05-02',			
+			             'version' => 'Breadcrumb 1.2.1',
+			             'release-date' => '2021-02-21',			
 			             'author' => array('name' => 'Symphony Community', 'website' => 'https://github.com/symphonists/'));
 		}
 
@@ -58,7 +58,7 @@
 		 * @param $param_pool
 		 * @return XMLElement
 		 */
-		public function grab(&$param_pool){
+		public function grab(Array &$param_pool = null){
 
 			// get the current page id
 			$current_page_id = (int)$this->_env['param']['current-page-id'];
